@@ -12,20 +12,15 @@ bot.command('status', (ctx) => {
   ctx.reply('✅ Бот працює стабільно');
 });
 
-bot.command('scan', async (ctx) => {
+bot.command('scan', (ctx) => {
 
-  ctx.reply('🔎 Сканую ринок...');
-
-  const signal = 🔥 SIGNAL  Монета: BTCUSDT Тип: LONG  📍 Entry: 62000 🛑 SL: 61500 🎯 TP: 63500  ⚡ Сила: 7/10;
-
-  ctx.reply(signal);
+  ctx.reply(🔎 Сканую ринок...  🔥 SIGNAL  Монета: BTCUSDT Тип: LONG  📍 Entry: 62000 🛑 SL: 61500 🎯 TP: 63500  ⚡ Сила: 7/10);
 
 });
 
-bot.launch()
-  .then(() => {
-    console.log('✅ Bot launched');
-  });
+bot.launch();
+
+console.log('✅ Bot launched');
 
 process.once('SIGINT', () => bot.stop('SIGINT'));
 process.once('SIGTERM', () => bot.stop('SIGTERM'));
