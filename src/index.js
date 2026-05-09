@@ -14,7 +14,7 @@ bot.command('status', (ctx) => {
 
 bot.command('scan', (ctx) => {
 
-  ctx.reply(🔎 Сканую ринок...  🔥 SIGNAL  Монета: BTCUSDT Тип: LONG  📍 Entry: 62000 🛑 SL: 61500 🎯 TP: 63500  ⚡ Сила: 7/10);
+  ctx.reply('🔎 Сканую ринок...  🔥 SIGNAL  Монета: BTCUSDT Тип: LONG  📍 Entry: 62000 🛑 SL: 61500 🎯 TP: 63500  ⚡ Сила: 7/10');
 
 });
 
